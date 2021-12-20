@@ -86,10 +86,12 @@ a:active {
 header {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+  justify-content: center;
   width: 100%;
   position: relative;
   top: 0;
+  padding: 0;
+  margin: 0;
   background: chartreuse;
   background: #ebebeb; }
   header .contenedor-nav {
@@ -110,29 +112,43 @@ section {
   width: 100%;
   height: auto;
   margin-left: 0%;
-  margin-right: 0%; }
-  section .sec-studio {
-    background: #0e9312e2; }
-
-.contenedor-90 {
-  background: #ebebeb;
-  width: 90%;
-  height: 400px;
-  margin-left: 5%;
-  margin-right: 5%; }
-
-.contenedor-100 {
-  background: #ebebeb;
-  width: 100%;
-  height: auto; }
-
-.texto1 {
-  padding-top: 30px;
-  padding-bottom: 40px;
-  width: 65%; }
-  .texto1 p {
+  margin-right: 0%;
+  padding: 50px; }
+  section .contenedor-90 {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  section .contenedor-100 {
+    background: #ebebeb;
+    width: 100%;
+    height: auto; }
+  section .texto1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 65%; }
+  section .p {
     font-family: "Cairo", sans-serif;
     font-size: 3.5rem; }
+  section .p2 {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.4rem;
+    margin: 0; }
+  section .p3 {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 30px; }
+  section .color-2 {
+    background-color: #0e9312e2; }
+
+.img-sec-estudio {
+  width: 70%; }
+
+.caja1 {
+  text-align: right; }
 
 .slide {
   width: 100%; }
@@ -144,12 +160,5 @@ section {
 
 img {
   object-fit: cover; }
-
-.img-sec-estudio {
-  width: 60%;
-  padding: 30px; }
-
-.left {
-  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
