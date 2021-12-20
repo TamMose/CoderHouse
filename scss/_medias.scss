@@ -1,0 +1,23 @@
+
+@media (min-width:1400px){
+    nav, .servicios, .footer-content {
+        width: 60%;
+        margin:auto;
+    }
+}
+
+//@media (min-width:940px){
+    //text-align: center;
+
+//}
+
+@media (min-width:420px){
+    nav{
+        a {
+            padding: auto;
+            font-size: 1.5rem;
+        }
+    }
+    
+    
+}

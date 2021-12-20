@@ -1,0 +1,87 @@
+
+@import"global";
+@import"nav";
+@import"medias";
+
+/*Para que los links no tengan subrayado*/
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+} 
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    top: 0;
+    background: chartreuse;
+    
+}
+
+body{
+    background-color: violet;
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+    width: 100%;
+    height: auto;
+}
+
+section{
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    //display: flex;
+    //justify-content: center;
+    
+}
+
+.contenedor-nav{
+    background:$fondo;
+    width: 90%;
+    height: 200px;
+}
+
+
+.contenedor-90{
+    
+    background: $fondo;
+    width: 90%;
+    height: 400px;
+}
+
+.contenedor-100{
+    background: $fondo;
+    width: 90%;
+    height: 400px;
+}
+
+
+
+.texto1 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    width: 65%;
+    
+    p{
+    font-family: $fuente-titulos;
+    font-size: $font-h1;
+}
+}
+
+  
+
+
+
+@mixin caja-flex($principal, $cruzado, $wrap){
+    display: flex;
+    justify-content: $principal;
+    align-items: $cruzado;
+    flex-wrap: $wrap;
+
+}
+
