@@ -19,11 +19,19 @@ header{
     position: relative;
     top: 0;
     background: chartreuse;
+    background: $fondo;
+
+    .contenedor-nav{
+        background:$fondo;
+        width: 90%;
+        height: 200px;
+    }
     
 }
 
 body{
     background-color: violet;
+    background: $fondo;
     padding: 0;
     margin: 0;
     line-height: 1.2;
@@ -38,14 +46,14 @@ section{
     margin-right: 0%;
     //display: flex;
     //justify-content: center;
+
+    .sec-studio{
+        background: $fondo-2;
+    }
     
 }
 
-.contenedor-nav{
-    background:$fondo;
-    width: 90%;
-    height: 200px;
-}
+
 
 
 .contenedor-90{
@@ -68,7 +76,7 @@ section{
 .texto1 {
     padding-top: 30px;
     padding-bottom: 40px;
-    width: 60%;
+    width: 65%;
     
     p{
     font-family: $fuente-titulos;
@@ -81,16 +89,32 @@ section{
 .slide{
     
     width: 100%;
+
+    .img-carrusel{
+        padding:5%;
+        width: 80%;
+        height: 950px;
+        margin: 0;
+    
+    }
 }
 
 
 img{
-    padding:5%;
-    width: 80%;
-    height: 950px;
-    margin: 0;
+    
     object-fit: cover;
 }
+
+.img-sec-estudio{
+    width: 60%;
+    padding: 30px;
+    
+}
+.left{
+   padding: 0;
+}
+
+
 
 
 

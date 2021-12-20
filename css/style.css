@@ -1,3 +1,6 @@
+mark {
+  background-color: #0e9312e2; }
+
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content {
     width: 60%;
@@ -30,7 +33,7 @@ nav {
     text-decoration: underline;
     cursor: pointer; }
     nav a:hover {
-      color: #2f9f33e2;
+      color: #0e9312e2;
       transform: scale(1.7rem); }
 
 footer {
@@ -64,7 +67,7 @@ footer {
     padding-top: 30px;
     padding-bottom: 0px; }
   footer a:hover {
-    color: #2f9f33e2; }
+    color: #0e9312e2; }
 
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content {
@@ -87,10 +90,16 @@ header {
   width: 100%;
   position: relative;
   top: 0;
-  background: chartreuse; }
+  background: chartreuse;
+  background: #ebebeb; }
+  header .contenedor-nav {
+    background: #ebebeb;
+    width: 90%;
+    height: 200px; }
 
 body {
   background-color: violet;
+  background: #ebebeb;
   padding: 0;
   margin: 0;
   line-height: 1.2;
@@ -102,11 +111,8 @@ section {
   height: auto;
   margin-left: 0%;
   margin-right: 0%; }
-
-.contenedor-nav {
-  background: #ebebeb;
-  width: 90%;
-  height: 200px; }
+  section .sec-studio {
+    background: #0e9312e2; }
 
 .contenedor-90 {
   background: #ebebeb;
@@ -123,19 +129,27 @@ section {
 .texto1 {
   padding-top: 30px;
   padding-bottom: 40px;
-  width: 60%; }
+  width: 65%; }
   .texto1 p {
     font-family: "Cairo", sans-serif;
     font-size: 3.5rem; }
 
 .slide {
   width: 100%; }
+  .slide .img-carrusel {
+    padding: 5%;
+    width: 80%;
+    height: 950px;
+    margin: 0; }
 
 img {
-  padding: 5%;
-  width: 80%;
-  height: 950px;
-  margin: 0;
   object-fit: cover; }
+
+.img-sec-estudio {
+  width: 60%;
+  padding: 30px; }
+
+.left {
+  padding: 0; }
 
 /*# sourceMappingURL=style.css.map */
