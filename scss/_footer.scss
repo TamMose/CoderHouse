@@ -1,0 +1,51 @@
+
+
+footer{
+    background: $fondo;
+    width: 90%;
+    height: 350px;
+    margin-right:5%;
+    margin-left: 5%;
+
+    .fila-primera{
+        font-family: $fuente-titulos;
+        font-size: $font-h3;
+        color:$font-color;
+        padding-top: 30px;
+        padding-bottom: 40px;
+        
+    }
+    
+    .fila-segunda{
+        font-family: $fuente-titulos;
+        font-size: $font-h1;
+        color:$font-color;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    
+    }
+    .fila-tercera{
+        font-family: $fuente-titulos;
+        font-size: $font-h4;
+        color:$font-color;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .fila-cuarta{
+        font-family: $fuente-titulos;
+        font-size: $font-p;
+        color:$font-color;
+        padding-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    a{
+
+        &:hover{
+            color:$font-color-second;
+        }
+    }
+
+}
+

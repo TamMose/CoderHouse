@@ -1,6 +1,7 @@
 
 @import"global";
 @import"nav";
+@import"footer";
 @import"medias";
 
 /*Para que los links no tengan subrayado*/
@@ -33,8 +34,8 @@ body{
 section{
     width: 100%;
     height: auto;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 0%;
+    margin-right: 0%;
     //display: flex;
     //justify-content: center;
     
@@ -52,12 +53,14 @@ section{
     background: $fondo;
     width: 90%;
     height: 400px;
+    margin-left:5% ;
+    margin-right: 5%;
 }
 
 .contenedor-100{
     background: $fondo;
-    width: 90%;
-    height: 400px;
+    width: 100%;
+    height: auto;
 }
 
 
@@ -65,7 +68,7 @@ section{
 .texto1 {
     padding-top: 30px;
     padding-bottom: 40px;
-    width: 65%;
+    width: 60%;
     
     p{
     font-family: $fuente-titulos;
@@ -73,7 +76,21 @@ section{
 }
 }
 
-  
+//CARRUSEL
+
+.slide{
+    
+    width: 100%;
+}
+
+
+img{
+    padding:5%;
+    width: 80%;
+    height: 950px;
+    margin: 0;
+    object-fit: cover;
+}
 
 
 

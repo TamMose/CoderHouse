@@ -33,6 +33,39 @@ nav {
       color: #2f9f33e2;
       transform: scale(1.7rem); }
 
+footer {
+  background: #ebebeb;
+  width: 90%;
+  height: 350px;
+  margin-right: 5%;
+  margin-left: 5%; }
+  footer .fila-primera {
+    font-family: "Cairo", sans-serif;
+    font-size: 2rem;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+  footer .fila-segunda {
+    font-family: "Cairo", sans-serif;
+    font-size: 3.5rem;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+  footer .fila-tercera {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+  footer .fila-cuarta {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.2rem;
+    color: black;
+    padding-top: 30px;
+    padding-bottom: 0px; }
+  footer a:hover {
+    color: #2f9f33e2; }
+
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content {
     width: 60%;
@@ -67,8 +100,8 @@ body {
 section {
   width: 100%;
   height: auto;
-  margin-left: 5%;
-  margin-right: 5%; }
+  margin-left: 0%;
+  margin-right: 0%; }
 
 .contenedor-nav {
   background: #ebebeb;
@@ -78,19 +111,31 @@ section {
 .contenedor-90 {
   background: #ebebeb;
   width: 90%;
-  height: 400px; }
+  height: 400px;
+  margin-left: 5%;
+  margin-right: 5%; }
 
 .contenedor-100 {
   background: #ebebeb;
-  width: 90%;
-  height: 400px; }
+  width: 100%;
+  height: auto; }
 
 .texto1 {
   padding-top: 30px;
   padding-bottom: 40px;
-  width: 65%; }
+  width: 60%; }
   .texto1 p {
     font-family: "Cairo", sans-serif;
-    font-size: 3rem; }
+    font-size: 3.5rem; }
+
+.slide {
+  width: 100%; }
+
+img {
+  padding: 5%;
+  width: 80%;
+  height: 950px;
+  margin: 0;
+  object-fit: cover; }
 
 /*# sourceMappingURL=style.css.map */
