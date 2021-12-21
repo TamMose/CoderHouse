@@ -3,6 +3,7 @@
 @import"nav";
 @import"footer";
 @import"medias";
+//@import"contact";
 
 /*Para que los links no tengan subrayado*/
 a:link,
@@ -241,6 +242,21 @@ img{
     
     object-fit: cover;
 }
+
+//STUDIO
+
+.fondo-studio{
+    background-color:$fondo-2 ;
+}
+
+.padding{
+    padding-top:100px ;
+
+}
+.newspaper {
+    column-count: 3;
+  }
+
 
 
 

@@ -221,4 +221,13 @@ main {
 img {
   object-fit: cover; }
 
+.fondo-studio {
+  background-color: #fe70bee2; }
+
+.padding {
+  padding-top: 100px; }
+
+.newspaper {
+  column-count: 3; }
+
 /*# sourceMappingURL=style.css.map */
