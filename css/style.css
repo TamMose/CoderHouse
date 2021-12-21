@@ -1,5 +1,5 @@
 mark {
-  background-color: #0e9312e2; }
+  background-color: #fe70bee2; }
 
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content {
@@ -19,7 +19,7 @@ nav {
   nav .logo {
     position: absolute;
     font-size: 2.3rem;
-    color: black;
+    color: #231f20;
     font-weight: 600;
     padding-top: 15px;
     padding-left: 0; }
@@ -27,14 +27,15 @@ nav {
     flex-direction: row-reverse; }
   nav a {
     font-family: "Cairo", sans-serif;
-    color: black;
+    color: #231f20;
     padding: 30px;
     font-size: 1.5rem;
     text-decoration: underline;
     cursor: pointer; }
     nav a:hover {
-      color: #0e9312e2;
-      transform: scale(1.7rem); }
+      color: #fe70bee2;
+      transform: scale(1.7rem);
+      font-weight: 700; }
 
 footer {
   background: #ebebeb;
@@ -45,29 +46,29 @@ footer {
   footer .fila-primera {
     font-family: "Cairo", sans-serif;
     font-size: 2rem;
-    color: black;
+    color: #231f20;
     padding-top: 30px;
     padding-bottom: 40px; }
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
     font-size: 3.5rem;
-    color: black;
+    color: #231f20;
     padding-top: 30px;
     padding-bottom: 0px; }
   footer .fila-tercera {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
-    color: black;
+    color: #231f20;
     padding-top: 30px;
     padding-bottom: 0px; }
   footer .fila-cuarta {
     font-family: "Cairo", sans-serif;
     font-size: 1.2rem;
-    color: black;
+    color: #231f20;
     padding-top: 30px;
     padding-bottom: 0px; }
   footer a:hover {
-    color: #0e9312e2; }
+    color: #fe70bee2; }
 
 @media (min-width: 1400px) {
   nav, .servicios, .footer-content {
@@ -98,6 +99,10 @@ header {
     background: #ebebeb;
     width: 90%;
     height: 200px; }
+  header .caja-rosa {
+    width: 100%;
+    height: 10px;
+    background-color: #231f20; }
 
 body {
   background-color: violet;
@@ -140,15 +145,70 @@ section {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
     font-weight: bold;
-    padding-bottom: 30px; }
+    padding-bottom: 30px;
+    color: #fe70bee2; }
   section .color-2 {
-    background-color: #0e9312e2; }
+    background-color: #fe70bee2; }
 
 .img-sec-estudio {
   width: 70%; }
 
 .caja1 {
   text-align: right; }
+
+main {
+  width: 100%;
+  background-color: #231f20; }
+  main .contenedor-90 {
+    width: 90%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  main .caja2 {
+    text-align: left; }
+  main .p {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.4rem;
+    color: #ebebeb;
+    padding-right: 60px; }
+  main .p2 {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.4rem;
+    font-weight: lighter;
+    color: #ebebeb;
+    margin: 0; }
+  main .p3 {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-bottom: 30px;
+    color: #fe70bee2;
+    padding-top: 40px; }
+  main .color-2 {
+    background-color: #fe70bee2; }
+
+.img-sec-estudio {
+  width: 70%; }
+
+.project {
+  width: 100%;
+  height: auto; }
+
+.img-project {
+  width: 100%;
+  height: 90%;
+  padding: 5px;
+  object-fit: cover; }
+
+.p-p {
+  padding-top: 100px;
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
+  color: #231f20;
+  margin: 0;
+  padding: 5px; }
 
 .slide {
   width: 100%; }

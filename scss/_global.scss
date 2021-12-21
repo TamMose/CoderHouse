@@ -1,14 +1,16 @@
 //FONDOS
 
 $fondo:rgb(235, 235, 235);
-$fondo-2:#0e9312e2;
+$fondo-2:#fe70bee2;
+$fondo-3:#231f20;
 
 
 //FONTS
 
 $fuente-titulos: 'Cairo', sans-serif;
-$font-color:black;
-$font-color-second:#0e9312e2;
+$font-color:#231f20;
+$font-color-second:#fe70bee2;
+$font-color-blanco:rgb(235, 235, 235);
 $font-p: 1.2rem;
 $font-h1:3.5rem;
 $font-h2:2.4rem;
@@ -16,6 +18,7 @@ $font-h3:2rem;
 $font-h4:1.5rem;
 
 mark{
-    background-color: #0e9312e2;
+    background-color: #fe70bee2;
+    
     
 }
