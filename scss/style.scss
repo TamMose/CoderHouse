@@ -3,7 +3,7 @@
 @import"nav";
 @import"footer";
 @import"medias";
-//@import"contact";
+@import"contact";
 
 /*Para que los links no tengan subrayado*/
 a:link,
@@ -186,6 +186,13 @@ main{
     
 }
 
+.p4{
+    font-family: $fuente-titulos;
+    font-size: $font-h4;
+    font-weight: lighter;
+    color: $font-color-blanco;
+    margin: 0;
+}
 
 .img-sec-estudio{
     width: 70%;
