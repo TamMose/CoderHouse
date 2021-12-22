@@ -1,28 +1,28 @@
 mark {
   background-color: #fe70bee2; }
 
-@media (min-width: 1400px) {
-  nav, .servicios, .footer-content {
-    width: 60%;
-    margin: auto; } }
-@media (min-width: 420px) {
-  nav a {
-    padding: auto;
-    font-size: 1.5rem; } }
 nav {
   display: inline-block;
-  background-color: #ebebeb;
+  background: #ebebeb;
   padding-top: 40px;
-  width: 90%;
+  width: 100%;
   height: 150px;
-  font-family: "Cairo", sans-serif; }
-  nav .logo {
-    position: absolute;
-    font-size: 2.3rem;
-    color: #231f20;
-    font-weight: 600;
-    padding-top: 15px;
-    padding-left: 0; }
+  font-family: "Cairo", sans-serif;
+  /*.logo{
+      position: absolute;
+      font-size: 2.3rem;
+      color:$font-color;
+      font-weight: 600;
+      padding-top: 15px;
+      padding-left: 0;
+      
+      
+  }*/ }
+  nav .fondo-nav {
+    background-color: #ebebeb; }
+  nav .navbar-toggler {
+    border: 0;
+    flex-direction: row; }
   nav .position-izq {
     flex-direction: row-reverse; }
   nav a {
@@ -74,13 +74,43 @@ footer {
     color: #fe70bee2; }
 
 @media (min-width: 1400px) {
-  nav, .servicios, .footer-content {
+  nav {
     width: 60%;
     margin: auto; } }
-@media (min-width: 420px) {
-  nav a {
-    padding: auto;
-    font-size: 1.5rem; } }
+/*
+@media only screen and (max-width: 400px) {
+    nav{
+        height: 150px;
+
+    
+        .logo{
+
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding-top: 15px;
+            
+            
+        }
+        .navbar-toggler{
+            border: 0;
+            text-align: left;
+            
+        }
+    
+    }
+    body{  
+        line-height: 1;       
+    }
+    section{
+        width: 100%;
+        height: auto;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+    }
+
+
+}*/
 mark {
   background-color: #fe70bee2; }
 
@@ -325,7 +355,52 @@ img {
   margin-top: 100px;
   margin-bottom: 0px; }
 
+.padding1 {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
 .newspaper {
   column-count: 2; }
+
+@media only screen and (max-width: 400px) {
+  header {
+    height: 200px; }
+    header nav {
+      height: 10px; }
+      header nav .fondo-nav {
+        background-color: #ebebeb; }
+      header nav .logo {
+        font-size: 1.5rem;
+        font-weight: 600;
+        padding-top: 15px; }
+      header nav .navbar-toggler {
+        border: 0;
+        text-align: left; }
+
+  body {
+    line-height: 1.3; }
+
+  section {
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px; }
+    section .p {
+      font-size: 2rem; }
+    section .texto1 {
+      margin: 0;
+      width: 100%; }
+    section .contenedor-100, section .contenedor-100-p {
+      padding-bottom: 20px; }
+    section .slide .img-carrusel {
+      height: 210px; }
+
+  main .p {
+    font-size: 1.4rem;
+    padding-right: 5px; }
+  main .p2 {
+    font-size: 1.4rem; } }
 
 /*# sourceMappingURL=style.css.map */

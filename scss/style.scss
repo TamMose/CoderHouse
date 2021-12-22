@@ -280,6 +280,11 @@ img{
     @include padding (0px ,0px ,100px , 0px);
 
 }
+
+.padding1{
+    @include padding (0px ,0px ,0px , 0px);
+
+}
 .newspaper {
     column-count: 2;
   }
@@ -301,3 +306,73 @@ img{
 
 }
 
+//responsive//
+
+@media only screen and (max-width: 400px) {
+    
+    header{
+        height: 200px;
+    nav{
+        height: 10px;
+
+        .fondo-nav{
+            background-color: rgb(235, 235, 235);
+        }
+        .logo{
+
+            font-size: 1.5rem;
+            font-weight: 600;
+            padding-top: 15px;
+            
+            
+        }
+        .navbar-toggler{
+            border: 0;
+            text-align: left;
+            
+        }
+    
+    }}
+    body{  
+        line-height: 1.3;       
+    }
+    section{
+        width: 100%;
+        height: auto;
+        margin:0;
+        padding:30px;
+    
+        .p{
+            font-size: 2rem;
+        }
+        .texto1{
+            margin: 0;
+            width: 100%;
+
+        }
+        .contenedor-100{
+            padding-bottom: 20px;
+        }
+        .slide .img-carrusel{
+            height: 210px;
+        }
+
+    }
+    main{
+
+
+        .p{
+            font-size: 1.4rem;
+            padding-right:5px; 
+        
+            
+        }
+        .p2{
+            font-size: 1.4rem;
+        }
+
+        
+
+}
+
+}

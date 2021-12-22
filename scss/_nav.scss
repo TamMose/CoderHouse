@@ -1,15 +1,14 @@
 
-@import"medias";
 
 nav{
     display: inline-block;
-    background-color: rgb(235, 235, 235);
+    background: rgb(235, 235, 235);
     padding-top: 40px;
-    width: 90%;
+    width: 100%;
     height: 150px;
     font-family:$fuente-titulos;
 
-    .logo{
+    /*.logo{
         position: absolute;
         font-size: 2.3rem;
         color:$font-color;
@@ -17,6 +16,15 @@ nav{
         padding-top: 15px;
         padding-left: 0;
         
+        
+    }*/
+
+    .fondo-nav{
+        background-color: rgb(235, 235, 235);
+    }
+    .navbar-toggler{
+        border: 0;
+        flex-direction: row;
         
     }
     
