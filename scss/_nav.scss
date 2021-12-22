@@ -21,6 +21,7 @@ nav{
 
     .fondo-nav{
         background-color: rgb(235, 235, 235);
+        height: 100%;
     }
     .navbar-toggler{
         border: 0;
@@ -48,5 +49,73 @@ nav{
             font-weight: 700;
         }
     }
+
+}
+
+@media only screen and (max-width: 1200px) {
+    .fondo-nav{
+        background-color: rgb(235, 235, 235);
+    }
+    .navbar-toggler{
+        border: 0;
+        flex-direction: row;
+        
+    }
+    
+
+    .position-izq{
+        flex-direction: row-reverse;
+        
+    }
+
+    a{
+
+        color:$font-color;
+
+        &:hover{
+            color:$font-color-second;
+
+        }
+    }
+    
+
+
+
+
+    
+}
+
+
+
+@media only screen and (min-width: 360px) {
+    .fondo-nav{
+        background-color: $fondo-2;
+        
+    }
+    .navbar-toggler{
+        border: 0;
+        flex-direction: row;
+        
+    }
+    
+
+    .position-izq{
+        flex-direction: row-reverse;
+        
+    }
+
+    a{
+        color:$font-color;
+
+        &:hover{
+            color:$font-color-blanco;
+
+        }
+    }
+    
+
+
+
+
 
 }

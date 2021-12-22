@@ -19,7 +19,8 @@ nav {
       
   }*/ }
   nav .fondo-nav {
-    background-color: #ebebeb; }
+    background-color: #ebebeb;
+    height: 100%; }
   nav .navbar-toggler {
     border: 0;
     flex-direction: row; }
@@ -37,6 +38,36 @@ nav {
       transform: scale(1.7rem);
       font-weight: 700; }
 
+@media only screen and (max-width: 1200px) {
+  .fondo-nav {
+    background-color: #ebebeb; }
+
+  .navbar-toggler {
+    border: 0;
+    flex-direction: row; }
+
+  .position-izq {
+    flex-direction: row-reverse; }
+
+  a {
+    color: #231f20; }
+    a:hover {
+      color: #fe70bee2; } }
+@media only screen and (min-width: 360px) {
+  .fondo-nav {
+    background-color: #fe70bee2; }
+
+  .navbar-toggler {
+    border: 0;
+    flex-direction: row; }
+
+  .position-izq {
+    flex-direction: row-reverse; }
+
+  a {
+    color: #231f20; }
+    a:hover {
+      color: #ebebeb; } }
 footer {
   background: #ebebeb;
   width: 90%;
@@ -73,44 +104,6 @@ footer {
   footer a:hover {
     color: #fe70bee2; }
 
-@media (min-width: 1400px) {
-  nav {
-    width: 60%;
-    margin: auto; } }
-/*
-@media only screen and (max-width: 400px) {
-    nav{
-        height: 150px;
-
-    
-        .logo{
-
-            font-size: 1.5rem;
-            font-weight: 600;
-            padding-top: 15px;
-            
-            
-        }
-        .navbar-toggler{
-            border: 0;
-            text-align: left;
-            
-        }
-    
-    }
-    body{  
-        line-height: 1;       
-    }
-    section{
-        width: 100%;
-        height: auto;
-        padding-top: 50px;
-        padding-bottom: 50px;
-        
-    }
-
-
-}*/
 mark {
   background-color: #fe70bee2; }
 
@@ -363,48 +356,5 @@ img {
 
 .newspaper {
   column-count: 2; }
-
-@media only screen and (max-width: 400px) {
-  header {
-    height: 200px; }
-
-  nav {
-    height: 10px;
-        /*.logo{
-
-            font-size: 1.5rem;
-            font-weight: 600;
-            padding-top: 15px;
-            
-            
-        }*/ }
-    nav .fondo-nav {
-      background-color: #ebebeb; }
-    nav .navbar-toggler {
-      border: 0;
-      text-align: left; } }
-body {
-  line-height: 1.3; }
-
-section {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  padding: 30px; }
-  section .p {
-    font-size: 2rem; }
-  section .texto1 {
-    margin: 0;
-    width: 100%; }
-  section .contenedor-100, section .contenedor-100-p {
-    padding-bottom: 20px; }
-  section .slide .img-carrusel {
-    height: 210px; }
-
-main .p {
-  font-size: 1.4rem;
-  padding-right: 5px; }
-main .p2 {
-  font-size: 1.4rem; }
 
 /*# sourceMappingURL=style.css.map */
