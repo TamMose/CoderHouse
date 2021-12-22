@@ -1,18 +1,18 @@
-//padding//
+//Padding mixin
 
-@mixin margin ($margin-left, $margin-right, $margin-top, $margin-bottom){
+@mixin padding ($left, $right, $top, $bottom, ) {
+    padding-left: $left;
+    padding-right: $right;
+    padding-top: $top;
+    padding-bottom: $bottom;
 
-    margin-left: $margin-left;
-    margin-right: $margin-right;
-    margin-top: $margin-top;
-    margin-bottom: $margin-bottom;
 }
 
-@mixin padding ($padding-left, $padding-right, $padding-top, $padding-bottom){
+//Margin mixin
+@mixin margin ($left, $right, $top, $bottom, ) {
+    margin-left: $left;
+    margin-right: $right;
+    margin-top: $top;
+    margin-bottom: $bottom;
 
-    margin-left: $padding-left;
-    margin-right: $padding-right;
-    margin-top: $padding-top;
-    margin-bottom: $padding-bottom;
 }
-
