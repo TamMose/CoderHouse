@@ -35,6 +35,13 @@ nav{
         
     }
 
+
+    .contenedor-a .logo{
+        position: absolute;
+        font-size: $font-h3;
+        padding-top: 15px;
+        padding-left: 0;}
+
     a{
         font-family:$fuente-titulos;
         color:$font-color;
@@ -52,6 +59,7 @@ nav{
 
 }
 
+<<<<<<< HEAD
 @media only screen and (max-width: 1200px) {
     .fondo-nav{
         background-color: rgb(235, 235, 235);
@@ -119,3 +127,5 @@ nav{
 
 
 }
+=======
+>>>>>>> medias

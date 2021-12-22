@@ -26,6 +26,11 @@ nav {
     flex-direction: row; }
   nav .position-izq {
     flex-direction: row-reverse; }
+  nav .contenedor-a .logo {
+    position: absolute;
+    font-size: 2rem;
+    padding-top: 15px;
+    padding-left: 0; }
   nav a {
     font-family: "Cairo", sans-serif;
     color: #231f20;
@@ -174,10 +179,10 @@ body {
   margin-right: 0px;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 section {
   width: 100%;
@@ -185,9 +190,7 @@ section {
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 0%;
-  margin-bottom: 0%;
-  padding-top: 50px;
-  padding-bottom: 50px; }
+  margin-bottom: 0%; }
   section .contenedor-90 {
     width: 90%;
     height: auto; }
@@ -196,7 +199,7 @@ section {
     width: 100%;
     height: auto; }
   section .contenedor-100-p {
-    padding-bottom: 80px; }
+    padding-bottom: 50px; }
   section .texto1 {
     width: 65%;
     padding-top: 30px;
@@ -213,14 +216,14 @@ section {
     font-size: 1.5rem;
     font-weight: bold;
     color: #fe70bee2;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 30px; }
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px; }
   section .color-2 {
     background-color: #fe70bee2; }
 
-.img-sec-estudio {
+.img-sec-estudio, .img-sec-estudio-p {
   width: 70%; }
 
 main {
@@ -231,12 +234,12 @@ main {
     height: auto;
     margin-left: 5%;
     margin-right: 5%;
-    margin-top: 0%;
-    margin-bottom: 0%;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px; }
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
   main .p {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
@@ -256,10 +259,10 @@ main {
     font-size: 1.5rem;
     font-weight: 700;
     color: #fe70bee2;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-top: 40px;
-    margin-bottom: 30px; }
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 30px; }
   main .color-2 {
     background-color: #fe70bee2; }
 
@@ -271,21 +274,33 @@ main {
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
-  margin-left: 0px;
-  margin-right: 60px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  padding-left: 0px;
+  padding-right: 60px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .p4--blanco {
   color: #ebebeb; }
 
-.img-sec-estudio {
-  width: 50%;
+.img-sec-estudio, .img-sec-estudio-p {
+  width: 60%;
   height: auto;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 5%;
-  margin-bottom: 5%; }
+  padding-left: 0%;
+  padding-right: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.img-sec-estudio-p {
+  padding-left: 10%;
+  padding-right: 0%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
+
+.caja1 {
+  text-align: right; }
+
+.caja2 {
+  text-align: left; }
 
 .project {
   width: 100%;
@@ -295,19 +310,19 @@ main {
   width: 100%;
   height: auto;
   object-fit: cover;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .img-project2 {
   width: 100%;
   height: 80%;
   object-fit: cover;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .p-p {
   font-family: "Cairo", sans-serif;
@@ -317,10 +332,10 @@ main {
   margin-right: 0%;
   margin-top: 0%;
   margin-bottom: 0%;
-  margin-left: 5px;
-  margin-right: 5px;
-  margin-top: 5px;
-  margin-bottom: 5px; }
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px; }
 
 .slide {
   width: 100%; }
@@ -329,12 +344,12 @@ main {
     height: 800px;
     margin-left: 0%;
     margin-right: 0%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    margin-left: 0%;
-    margin-right: 0%;
     margin-top: 0%;
-    margin-bottom: 0%; }
+    margin-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%; }
 
 img {
   object-fit: cover; }
@@ -343,16 +358,16 @@ img {
   background-color: #fe70bee2; }
 
 .padding {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 100px;
-  margin-bottom: 0px; }
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 100px;
+  padding-bottom: 0px; }
 
 .padding1 {
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px; }
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .newspaper {
   column-count: 2; }
