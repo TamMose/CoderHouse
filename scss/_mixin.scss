@@ -1,0 +1,17 @@
+//padding//
+
+@mixin margin ($margin-left, $margin-right, $margin-top, $margin-bottom){
+
+    margin-left: $margin-left;
+    margin-right: $margin-right;
+    margin-top: $margin-top;
+    margin-bottom: $margin-bottom;
+}
+
+@mixin padding ($padding-left, $padding-right, $padding-top, $padding-bottom){
+
+    margin-left: $padding-left;
+    margin-right: $padding-right;
+    margin-top: $padding-top;
+    margin-bottom: $padding-bottom;
+}

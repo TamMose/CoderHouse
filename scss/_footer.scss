@@ -3,9 +3,13 @@
 footer{
     background: $fondo;
     width: 90%;
-    height: 350px;
+    height: 480px;
+    padding-top: 0px ;
+    padding-bottom: 0px;
+    padding-top: 60px;
     margin-right:5%;
     margin-left: 5%;
+    
 
     .fila-primera{
         font-family: $fuente-titulos;
