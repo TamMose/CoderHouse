@@ -57,13 +57,13 @@ body {
 section {
     width: 100%;
     height: auto;
-<<<<<<< HEAD
+
     @include margin (0%, 0%, 0%, 0%);
     padding-top: 50px;
     padding-bottom: 50px;
-=======
+
     @include margin (0% , 0%, 0%, 0%);
->>>>>>> medias
+
     //display: flex;
     //justify-content: center;
 
@@ -75,13 +75,10 @@ section {
 
     .contenedor-90 {
 
-<<<<<<< HEAD
-=======
 .contenedor-100{
     background: $fondo;
     width: 100%;
-    height: auto;
-}
+    height: auto; }
 
 .contenedor-100-p{
     @extend .contenedor-100;
@@ -144,12 +141,12 @@ main{
 
     .contenedor-90{
     
->>>>>>> medias
+
         //background: $fondo;
         width: 90%;
         height: auto;
         //height: 400px;
-<<<<<<< HEAD
+
 
     }
 
@@ -162,10 +159,10 @@ main{
     .contenedor-100-p {
         @extend .contenedor-100;
         padding-bottom: 80px;
-=======
+
         @include margin (5% ,5%, 5%, 5%);
         @include padding (0px ,0px ,0px , 0px);
->>>>>>> medias
+
     }
 
 
@@ -284,14 +281,13 @@ main {
 }
 
 
-<<<<<<< HEAD
 .img-sec-estudio {
     width: 50%;
     height: auto;
     @include padding (20%, 20%, 5%, 5%);
 
 }
-=======
+
 
     .img-sec-estudio{
         width: 60%;
@@ -314,7 +310,6 @@ main {
     }
     
 
->>>>>>> medias
 
 //PROJECT
 
@@ -363,15 +358,14 @@ main {
 
         width: 80%;
         height: 800px;
-<<<<<<< HEAD
+
         @include margin (0%, 0%, 5%, 5%);
         @include padding (0%, 0%, 0%, 0%);
 
-=======
+
         @include margin (0% ,0% ,0% , 5%);
         @include padding (0% ,0% ,0% , 0%);
-    
->>>>>>> medias
+
     }
 }
 
@@ -402,20 +396,6 @@ img {
 
 }
 
-
-
-
-
-
-
-@mixin caja-flex($principal, $cruzado, $wrap) {
-    display: flex;
-    justify-content: $principal;
-    align-items: $cruzado;
-    flex-wrap: $wrap;
-
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> medias
+
