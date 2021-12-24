@@ -1,5 +1,5 @@
 mark {
-  background-color: #fe70bee2; }
+  background-color: #ffcc00; }
 
 nav {
   display: inline-block;
@@ -43,36 +43,6 @@ nav {
       transform: scale(1.7rem);
       font-weight: 700; }
 
-@media only screen and (max-width: 1200px) {
-  .fondo-nav {
-    background-color: #ebebeb; }
-
-  .navbar-toggler {
-    border: 0;
-    flex-direction: row; }
-
-  .position-izq {
-    flex-direction: row-reverse; }
-
-  a {
-    color: #231f20; }
-    a:hover {
-      color: #fe70bee2; } }
-@media only screen and (min-width: 360px) {
-  .fondo-nav {
-    background-color: #fe70bee2; }
-
-  .navbar-toggler {
-    border: 0;
-    flex-direction: row; }
-
-  .position-izq {
-    flex-direction: row-reverse; }
-
-  a {
-    color: #231f20; }
-    a:hover {
-      color: #ebebeb; } }
 footer {
   background: #ebebeb;
   width: 90%;
@@ -110,7 +80,7 @@ footer {
     color: #fe70bee2; }
 
 mark {
-  background-color: #fe70bee2; }
+  background-color: #ffcc00; }
 
 section {
   padding-left: 10%;
@@ -190,10 +160,13 @@ section {
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
   margin-bottom: 0%; }
-  section .contenedor-90 {
-    width: 90%;
-    height: auto; }
   section .contenedor-100, section .contenedor-100-p {
     background: #ebebeb;
     width: 100%;
@@ -230,12 +203,58 @@ main {
   width: 100%;
   background-color: #231f20; }
   main .contenedor-90 {
+    width: 90%;
+    height: auto; }
+  main .contenedor-100, main .contenedor-100-p {
+    background: #ebebeb;
     width: 100%;
-    height: auto;
+    height: auto; }
+  main .contenedor-100-p {
+    padding-bottom: 80px;
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px; }
+  main .texto1 {
+    width: 65%;
+    padding-top: 30px;
+    padding-bottom: 40px; }
+  main .p {
+    font-family: "Cairo", sans-serif;
+    font-size: 3.5rem; }
+  main .p2 {
+    font-family: "Cairo", sans-serif;
+    font-size: 2.4rem;
+    margin: 0; }
+  main .p3 {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fe70bee2;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px; }
+  main .color-2 {
+    background-color: #fe70bee2; }
+
+.img-sec-estudio, .img-sec-estudio-p {
+  width: 70%; }
+
+main {
+  width: 100%;
+  background-color: #231f20; }
+  main .contenedor-90 {
+    width: 100%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0%;
+    margin-bottom: 0%;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -281,6 +300,14 @@ main {
 
 .p4--blanco {
   color: #ebebeb; }
+
+.img-sec-estudio, .img-sec-estudio-p {
+  width: 50%;
+  height: auto;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 5%;
+  padding-bottom: 5%; }
 
 .img-sec-estudio, .img-sec-estudio-p {
   width: 60%;
@@ -342,6 +369,14 @@ main {
   .slide .img-carrusel {
     width: 80%;
     height: 800px;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-left: 0%;
+    padding-right: 0%;
+    padding-top: 0%;
+    padding-bottom: 0%;
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 0%;

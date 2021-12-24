@@ -40,7 +40,8 @@ nav{
         position: absolute;
         font-size: $font-h3;
         padding-top: 15px;
-        padding-left: 0;}
+        padding-left: 0;
+    }
 
     a{
         font-family:$fuente-titulos;
@@ -56,10 +57,4 @@ nav{
             font-weight: 700;
         }
     }
-
 }
-&:hover{
-            color:$font-color-second;
-
-        }
-
