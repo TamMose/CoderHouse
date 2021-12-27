@@ -7,30 +7,46 @@ nav {
   padding-top: 40px;
   width: 100%;
   height: 150px;
-  font-family: "Cairo", sans-serif;
-  /*.logo{
-      position: absolute;
-      font-size: 2.3rem;
-      color:$font-color;
-      font-weight: 600;
-      padding-top: 15px;
-      padding-left: 0;
-      
-      
-  }*/ }
+  font-family: "Cairo", sans-serif; }
+  @media only screen and (min-width: 360px) {
+    nav {
+      padding-top: 40px;
+      height: 10px; } }
+  @media only screen and (min-width: 1200px) {
+    nav {
+      padding-top: 40px;
+      height: 150px; } }
   nav .fondo-nav {
     background-color: #ebebeb;
     height: 100%; }
   nav .navbar-toggler {
     border: 0;
     flex-direction: row; }
-  nav .position-izq {
-    flex-direction: row-reverse; }
-  nav .contenedor-a .logo {
+    nav .navbar-toggler:hover {
+      border: 0; }
+  nav .contenedor-a {
     position: absolute;
-    font-size: 2rem;
-    padding-top: 15px;
-    padding-left: 0; }
+    width: 90%; }
+    nav .contenedor-a .position-izq {
+      flex-direction: row-reverse;
+      position: relative; }
+    nav .contenedor-a .logo {
+      font-size: 2rem;
+      padding-top: 15px;
+      padding-right: 0;
+      padding-left: 0; }
+      @media only screen and (min-width: 360px) {
+        nav .contenedor-a .logo {
+          font-size: 1.5rem;
+          padding-top: 90px;
+          padding-right: 90px;
+          padding-left: 0px; } }
+      @media only screen and (min-width: 1200px) {
+        nav .contenedor-a .logo {
+          font-size: 2rem;
+          padding-top: 15px;
+          padding-right: 0px;
+          padding-left: 0px; } }
   nav a {
     font-family: "Cairo", sans-serif;
     color: #231f20;
@@ -97,11 +113,25 @@ h4 {
   font-size: 2.4rem;
   padding: 30px;
   color: #fe70bee2; }
+  @media only screen and (min-width: 360px) {
+    h4 {
+      font-size: 1.5rem; } }
+  @media only screen and (min-width: 1200px) {
+    h4 {
+      font-size: 2.4rem; } }
 
 form {
   font-size: 1.8rem;
   background-color: #ebebeb;
   width: 80%; }
+  @media only screen and (min-width: 360px) {
+    form {
+      font-size: 1.2rem;
+      width: 90%; } }
+  @media only screen and (min-width: 1200px) {
+    form {
+      font-size: 1.8rem;
+      width: 80%; } }
 
 form .form-control {
   border-bottom: 1px solid #231f20;
@@ -109,10 +139,23 @@ form .form-control {
   border-top: none;
   border-left: none;
   border-right: none;
-  background-color: transparent; }
+  background-color: transparent;
+  padding-bottom: 30px; }
+  @media only screen and (min-width: 360px) {
+    form .form-control {
+      padding-top: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    form .form-control {
+      padding-bottom: 30px; } }
 
 form label {
   padding: 30px; }
+  @media only screen and (min-width: 360px) {
+    form label {
+      padding: 10px; } }
+  @media only screen and (min-width: 1200px) {
+    form label {
+      padding: 30px; } }
 
 /*Para que los links no tengan subrayado*/
 a:link,
@@ -163,10 +206,20 @@ section {
   margin-bottom: 0%;
   padding-top: 50px;
   padding-bottom: 50px;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%; }
+  padding-left: 10%;
+  padding-right: 10%; }
+  @media only screen and (min-width: 360px) {
+    section {
+      padding-top: 0px;
+      padding-bottom: 5px;
+      padding-left: 5%;
+      padding-right: 5%; } }
+  @media only screen and (min-width: 1200px) {
+    section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 10%;
+      padding-right: 10%; } }
   section .contenedor-100, section .contenedor-100-p {
     background: #ebebeb;
     width: 100%;
@@ -177,13 +230,35 @@ section {
     width: 65%;
     padding-top: 30px;
     padding-bottom: 40px; }
+    @media only screen and (min-width: 360px) {
+      section .texto1 {
+        width: 100%;
+        padding-top: 0px;
+        padding-bottom: 0px; } }
+    @media only screen and (min-width: 1200px) {
+      section .texto1 {
+        width: 65%;
+        padding-top: 30px;
+        padding-bottom: 40px; } }
   section .p {
     font-family: "Cairo", sans-serif;
     font-size: 3.5rem; }
+    @media only screen and (min-width: 360px) {
+      section .p {
+        font-size: 2rem; } }
+    @media only screen and (min-width: 1200px) {
+      section .p {
+        font-size: 3.5rem; } }
   section .p2 {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
     margin: 0; }
+    @media only screen and (min-width: 360px) {
+      section .p2 {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 1200px) {
+      section .p2 {
+        font-size: 2.4rem; } }
   section .p3 {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
@@ -203,52 +278,6 @@ main {
   width: 100%;
   background-color: #231f20; }
   main .contenedor-90 {
-    width: 90%;
-    height: auto; }
-  main .contenedor-100, main .contenedor-100-p {
-    background: #ebebeb;
-    width: 100%;
-    height: auto; }
-  main .contenedor-100-p {
-    padding-bottom: 80px;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 0px; }
-  main .texto1 {
-    width: 65%;
-    padding-top: 30px;
-    padding-bottom: 40px; }
-  main .p {
-    font-family: "Cairo", sans-serif;
-    font-size: 3.5rem; }
-  main .p2 {
-    font-family: "Cairo", sans-serif;
-    font-size: 2.4rem;
-    margin: 0; }
-  main .p3 {
-    font-family: "Cairo", sans-serif;
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: #fe70bee2;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px; }
-  main .color-2 {
-    background-color: #fe70bee2; }
-
-.img-sec-estudio, .img-sec-estudio-p {
-  width: 70%; }
-
-main {
-  width: 100%;
-  background-color: #231f20; }
-  main .contenedor-90 {
     width: 100%;
     height: auto;
     margin-left: 5%;
@@ -259,11 +288,25 @@ main {
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px; }
+  main .cont-main {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px; }
   main .p {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
     color: #ebebeb;
     padding-right: 60px; }
+    @media only screen and (min-width: 360px) {
+      main .p {
+        font-size: 1.5rem;
+        padding-right: 5px; } }
+    @media only screen and (min-width: 1200px) {
+      main .p {
+        font-size: 2.4rem;
+        padding-right: 60px; } }
   main .p2 {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
@@ -385,6 +428,14 @@ main {
     padding-right: 0%;
     padding-top: 0%;
     padding-bottom: 0%; }
+    @media only screen and (min-width: 360px) {
+      .slide .img-carrusel {
+        width: 90%;
+        height: 250px; } }
+    @media only screen and (min-width: 1200px) {
+      .slide .img-carrusel {
+        width: 80%;
+        height: 800px; } }
 
 img {
   object-fit: cover; }
@@ -406,5 +457,11 @@ img {
 
 .newspaper {
   column-count: 2; }
+  @media only screen and (min-width: 360px) {
+    .newspaper {
+      column-count: 1; } }
+  @media only screen and (min-width: 1200px) {
+    .newspaper {
+      column-count: 2; } }
 
 /*# sourceMappingURL=style.css.map */

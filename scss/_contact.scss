@@ -1,4 +1,5 @@
 @import"global";
+@import"medias";
 
 
 section {
@@ -18,12 +19,31 @@ section {
     font-size: $font-h2;
     padding: 30px;
     color: $fondo-2;
+
+    @include mobile {
+      font-size: $font-h4;
+  }
+
+    @include desktop {
+      font-size: $font-h2;
+  }
   }
   
   form {
     font-size: 1.8rem;
     background-color: $fondo;
     width: 80%;
+
+
+    @include mobile {
+      font-size: 1.2rem;
+      width: 90%;
+  }
+
+    @include desktop {
+      font-size: 1.8rem;
+      width: 80%;
+  }
   }
   
   form .form-control {
@@ -33,11 +53,33 @@ section {
     border-left: none;
     border-right: none;
     background-color: transparent;
+    padding-bottom: 30px;
+
+
+    @include mobile {
+      
+      padding-top: 0px;
+  }
+
+    @include desktop {
+      
+      padding-bottom: 30px;
+  }
   }
   
   form label {
+    
     padding: 30px;
-  }
- 
-  
 
+    @include mobile {
+      
+      padding:10px;
+  }
+
+    @include desktop {
+      
+      padding: 30px;
+  }
+  }
+
+  

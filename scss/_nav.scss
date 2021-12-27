@@ -1,4 +1,4 @@
-
+@import"medias";
 
 nav{
     display: inline-block;
@@ -8,16 +8,18 @@ nav{
     height: 150px;
     font-family:$fuente-titulos;
 
-    /*.logo{
-        position: absolute;
-        font-size: 2.3rem;
-        color:$font-color;
-        font-weight: 600;
-        padding-top: 15px;
-        padding-left: 0;
-        
-        
-    }*/
+    @include mobile {
+        padding-top: 40px;
+        height: 10px;
+    }
+  
+      @include desktop {
+        padding-top: 40px;
+        height: 150px;
+    }
+    
+
+
 
     .fondo-nav{
         background-color: rgb(235, 235, 235);
@@ -25,23 +27,54 @@ nav{
     }
     .navbar-toggler{
         border: 0;
-        flex-direction: row;
+        flex-direction:row;
+
+        &:hover{
+
+            border: 0;            
+        }
         
     }
     
 
-    .position-izq{
-        flex-direction: row-reverse;
-        
-    }
+    
 
 
-    .contenedor-a .logo{
+    .contenedor-a{
         position: absolute;
+        width: 90%;
+
+        .position-izq{
+            flex-direction: row-reverse;
+            position: relative;
+}
+        
+        
+
+        .logo{
         font-size: $font-h3;
         padding-top: 15px;
+        padding-right: 0;
         padding-left: 0;
-    }
+
+        @include mobile {
+
+            font-size: $font-h4;
+            padding-top: 90px;
+            padding-right: 90px;
+            padding-left: 0px;   
+        }
+    
+        @include desktop {
+
+        font-size: $font-h3;
+        padding-top: 15px;
+        padding-right: 0px;
+        padding-left: 0px;
+        
+        }
+        
+    }}
 
     a{
         font-family:$fuente-titulos;
