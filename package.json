@@ -1,0 +1,23 @@
+{
+  "name": "coderhouse_desarrollo-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TamMose/CoderHouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TamMose/CoderHouse/issues"
+  },
+  "homepage": "https://github.com/TamMose/CoderHouse#readme",
+  "dependencies": {
+    "cowsay": "^1.5.0"
+  }
+}
