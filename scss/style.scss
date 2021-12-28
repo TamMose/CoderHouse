@@ -26,13 +26,14 @@ header {
     top: 0;
     background: $fondo;
     margin: 0;
-    padding: 0;
+    @include padding (0%, 0%, 0%, 0%);
+    
 
 
     .contenedor-nav {
 
         background: $fondo;
-        width: 90%;
+        width: 100%;
         height: 200px;
     }
 

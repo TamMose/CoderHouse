@@ -1,4 +1,6 @@
+@import"global";
 @import"medias";
+@import"mixin";
 
 nav {
     display: inline-block;
@@ -7,6 +9,7 @@ nav {
     width: 100%;
     height: 150px;
     font-family: $fuente-titulos;
+    @include padding (5%, 5%, 0%, 0%);
 
     @include mobile {
         padding-top: 40px;
@@ -22,11 +25,12 @@ nav {
 
 
     .fondo-nav {
-        background-color: rgb(235, 235, 235);
+        background-color:$fondo;
         height: 100%;
     }
 
     .navbar-toggler {
+        
         border: 0;
         flex-direction: row;
 
