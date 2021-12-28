@@ -233,6 +233,13 @@ main {
         color: $font-color-blanco;
         @include margin (0px, 0px, 0px, 0px);
 
+        @include mobile{
+            font-size: $font-h3;
+
+        }
+        @include desktop{
+            font-size: $font-h2;
+        }
     }
 
     .p3 {
@@ -257,6 +264,15 @@ main {
     color: $font-color;
     @include margin (0%, 0%, 0%, 0%);
     @include padding (0px, 60px, 0px, 0px);
+
+    @include mobile{
+        font-size: $font-p;
+        @include padding (0px, 5px, 0px, 0px);
+    }
+    @include desktop{
+        font-size: $font-h4;
+        @include padding (0px, 60px, 0px, 0px);
+    }
 }
 
 .p4--blanco {
@@ -336,6 +352,8 @@ main {
 
 //CARRUSEL
 
+
+
 .slide {
 
     width: 100%;
@@ -357,6 +375,10 @@ main {
             height: 250px;
 
         }
+        @include tablet {
+            width: 80%;
+            height: 600px;
+        }
 
         @include desktop {
             width: 80%;
@@ -364,7 +386,10 @@ main {
         }
 
     }
+    
 }
+
+
 
 
 img {

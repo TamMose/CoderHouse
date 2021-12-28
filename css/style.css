@@ -18,7 +18,7 @@ nav {
   @media only screen and (min-width: 360px) {
     nav {
       padding-top: 40px;
-      height: 10px; } }
+      height: 70px; } }
   @media only screen and (min-width: 1200px) {
     nav {
       padding-top: 40px;
@@ -66,6 +66,9 @@ nav {
       transform: scale(1.7rem);
       font-weight: 700; }
 
+mark {
+  background-color: #ffcc00; }
+
 footer {
   background: #ebebeb;
   width: 100%;
@@ -96,6 +99,16 @@ footer {
     color: #231f20;
     padding-top: 30px;
     padding-bottom: 40px; }
+    @media only screen and (min-width: 360px) {
+      footer .fila-primera {
+        font-size: 1.5rem;
+        padding-top: 10px;
+        padding-bottom: 10px; } }
+    @media only screen and (min-width: 1200px) {
+      footer .fila-primera {
+        font-size: 2rem;
+        padding-top: 30px;
+        padding-bottom: 40px; } }
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
     font-size: 3.5rem;
@@ -108,12 +121,18 @@ footer {
     color: #231f20;
     padding-top: 30px;
     padding-bottom: 0px; }
+    @media only screen and (min-width: 360px) {
+      footer .fila-tercera {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 1200px) {
+      footer .fila-tercera {
+        font-size: 1.5rem; } }
   footer .fila-cuarta {
     font-family: "Cairo", sans-serif;
     font-size: 1.2rem;
     color: #231f20;
     padding-top: 30px;
-    padding-bottom: 0px; }
+    padding-bottom: 20px; }
   footer a:hover {
     color: #ffcc00; }
 
@@ -405,6 +424,12 @@ main {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px; }
+    @media only screen and (min-width: 360px) {
+      main .p2 {
+        font-size: 2rem; } }
+    @media only screen and (min-width: 1200px) {
+      main .p2 {
+        font-size: 2.4rem; } }
   main .p3 {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
@@ -429,6 +454,20 @@ main {
   padding-right: 60px;
   padding-top: 0px;
   padding-bottom: 0px; }
+  @media only screen and (min-width: 360px) {
+    .p4, .p4--blanco {
+      font-size: 1.2rem;
+      padding-left: 0px;
+      padding-right: 5px;
+      padding-top: 0px;
+      padding-bottom: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .p4, .p4--blanco {
+      font-size: 1.5rem;
+      padding-left: 0px;
+      padding-right: 60px;
+      padding-top: 0px;
+      padding-bottom: 0px; } }
 
 .p4--blanco {
   color: #ebebeb; }
@@ -521,6 +560,10 @@ main {
       .slide .img-carrusel {
         width: 90%;
         height: 250px; } }
+    @media only screen and (min-width: 768px) {
+      .slide .img-carrusel {
+        width: 80%;
+        height: 600px; } }
     @media only screen and (min-width: 1200px) {
       .slide .img-carrusel {
         width: 80%;
