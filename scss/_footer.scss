@@ -5,12 +5,12 @@
 footer {
     background: $fondo;
     width: 100%;
-    height: 480px;
+    height: 410px;
 
 
     @include margin (0%, 0%, 0%, 0%);
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 10%;
     padding-right: 10%;
 
@@ -26,8 +26,8 @@ footer {
     }
 
     @include desktop {
-        padding-top: 50px;
-        padding-bottom: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         padding-left: 10%;
         padding-right: 10%;
 
