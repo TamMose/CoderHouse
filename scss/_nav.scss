@@ -2,82 +2,65 @@
 @import"medias";
 @import"mixin";
 
-nav {
-    display: inline-block;
-    background: $fondo;
-    padding-top: 40px;
+.container-nav {
     width: 100%;
-    height: 150px;
-    font-family: $fuente-titulos;
-    @include padding (5%, 5%, 0%, 0%);
+    height: auto;
+
+    @include margin (0%, 0%, 0%, 0%);
+    @include padding (0px, 0px, 0px, 0px);
 
     @include mobile {
-        padding-top: 40px;
-        height: 70px;
+        @include padding (0px, 0px, 20px, 70px);
     }
 
     @include desktop {
-        padding-top: 40px;
+        @include padding (0px, 0px, 0px, 0px);
+    }
+
+}
+
+nav {
+    height: 150px;
+    background: $fondo;
+    font-family: $fuente-titulos;
+    @include padding (10%, 10%, 0px, 50px);
+
+
+    @include mobile {
+        height: auto;
+        background: $fondo;
+        @include padding (5%, 5%, 50px, 60px);
+
+    }
+
+    @include desktop {
         height: 150px;
+        background: $fondo;
+        @include padding (10%, 10%, 0px, 50px);
+
     }
 
+    .logo {
+        font-size: $font-h3;
+        padding-top: 5px;
+        padding-right: 0;
+        padding-left: 0;
+        font-weight: 600;
 
+        @include mobile {
 
-
-    .fondo-nav {
-        background-color:$fondo;
-        height: 100%;
-    }
-
-    .navbar-toggler {
-        
-        border: 0;
-        flex-direction: row;
-
-        &:hover {
-
-            border: 0;
+            font-size: $font-h4;
+            padding-top: 10px;
+            padding-right: 0px;
+            padding-left: 0px;
         }
 
-    }
+        @include desktop {
 
-
-
-
-
-    .contenedor-a {
-        position: absolute;
-        width: 90%;
-
-        .position-izq {
-            flex-direction: row-reverse;
-            position: relative;
-        }
-
-
-
-        .logo {
             font-size: $font-h3;
-            padding-top: 15px;
-            padding-right: 0;
-            padding-left: 0;
-
-            @include mobile {
-
-                font-size: $font-h4;
-                padding-top: 90px;
-                padding-right: 90px;
-                padding-left: 0px;
-            }
-
-            @include desktop {
-
-                font-size: $font-h3;
-                padding-top: 15px;
-                padding-right: 0px;
-                padding-left: 0px;
-
-            }
+            padding-top: 5px;
+            padding-right: 0px;
+            padding-left: 0px;
 
         }
     }
@@ -85,7 +68,7 @@ nav {
     a {
         font-family: $fuente-titulos;
         color: $font-color;
-        padding: 30px;
+        @include padding (30px, 0px, 30px, 30px);
         font-size: 1.5rem;
         text-decoration: underline;
         cursor: pointer;
@@ -95,5 +78,12 @@ nav {
             transform: scale(1.7rem);
             font-weight: 700;
         }
+    }
+
+    .active {
+        color: $font-color;
+        transform: scale(1.7rem);
+        font-weight: 700;
+
     }
 }
