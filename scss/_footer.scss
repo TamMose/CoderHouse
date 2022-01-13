@@ -3,7 +3,7 @@
 @import"mixin";
 
 footer {
-    background: $fondo;
+    background: $fondo-3;
     width: 100%;
     height: 410px;
 
@@ -37,7 +37,7 @@ footer {
     .fila-primera {
         font-family: $fuente-titulos;
         font-size: $font-h3;
-        color: $font-color;
+        color: $font-color-blanco;
         padding-top: 30px;
         padding-bottom: 40px;
 
@@ -58,7 +58,7 @@ footer {
     .fila-segunda {
         font-family: $fuente-titulos;
         font-size: $font-h1;
-        color: $font-color;
+        color: $font-color-blanco;
         padding-top: 30px;
         padding-bottom: 0px;
 
@@ -67,7 +67,7 @@ footer {
     .fila-tercera {
         font-family: $fuente-titulos;
         font-size: $font-h4;
-        color: $font-color;
+        color: $font-color-blanco;
         padding-top: 30px;
         padding-bottom: 0px;
 
@@ -84,7 +84,7 @@ footer {
     .fila-cuarta {
         font-family: $fuente-titulos;
         font-size: $font-p;
-        color: $font-color;
+        color: $font-color-blanco;
         padding-top: 30px;
         padding-bottom: 20px;
     }
