@@ -17,6 +17,10 @@
         @include padding (0px, 0px, 0px, 0px);
     }
 
+    .amarillo-nav{
+        background-color: $fondo-2;
+    }
+
 }
 
 nav {
@@ -39,6 +43,8 @@ nav {
         @include padding (10%, 10%, 0px, 50px);
 
     }
+
+    
 
     .logo {
         font-size: $font-h3;
@@ -72,9 +78,26 @@ nav {
         font-size: 1.5rem;
         text-decoration: underline;
         cursor: pointer;
+        
 
         &:hover {
             color: $font-color-second;
+            transform: scale(1.7rem);
+            font-weight: 700;
+        }
+    }
+
+    .a-studio{
+        font-family: $fuente-titulos;
+        color: $font-color;
+        @include padding (30px, 0px, 30px, 30px);
+        font-size: 1.5rem;
+        text-decoration: underline;
+        cursor: pointer;
+        
+
+        &:hover {
+            color: $font-color-blanco;
             transform: scale(1.7rem);
             font-weight: 700;
         }

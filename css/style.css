@@ -27,6 +27,8 @@ mark {
       padding-right: 0px;
       padding-top: 0px;
       padding-bottom: 0px; } }
+  .container-nav .amarillo-nav {
+    background-color: #ffcc00; }
 
 nav {
   height: 150px;
@@ -84,6 +86,20 @@ nav {
       color: #ffcc00;
       transform: scale(1.7rem);
       font-weight: 700; }
+  nav .a-studio {
+    font-family: "Cairo", sans-serif;
+    color: #231f20;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer; }
+    nav .a-studio:hover {
+      color: #ebebeb;
+      transform: scale(1.7rem);
+      font-weight: 700; }
   nav .active {
     color: #231f20;
     transform: scale(1.7rem);
@@ -95,7 +111,7 @@ mark {
 footer {
   background: #231f20;
   width: 100%;
-  height: 410px;
+  height: 360px;
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 0%;
@@ -106,53 +122,65 @@ footer {
   padding-right: 10%; }
   @media only screen and (min-width: 360px) {
     footer {
-      padding-top: 0px;
+      height: 440px;
+      padding-top: 5px;
       padding-bottom: 5px;
       padding-left: 5%;
       padding-right: 5%; } }
   @media only screen and (min-width: 1200px) {
     footer {
+      height: 360px;
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 0px;
       padding-left: 10%;
       padding-right: 10%; } }
   footer .fila-primera {
     font-family: "Cairo", sans-serif;
     font-size: 2rem;
     color: #ebebeb;
-    padding-top: 30px;
-    padding-bottom: 40px; }
+    padding-top: 0px;
+    padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
       footer .fila-primera {
         font-size: 1.5rem;
-        padding-top: 10px;
-        padding-bottom: 10px; } }
+        padding-top: 0px;
+        padding-bottom: 0px; } }
     @media only screen and (min-width: 1200px) {
       footer .fila-primera {
         font-size: 2rem;
-        padding-top: 30px;
-        padding-bottom: 40px; } }
+        padding-top: 0px;
+        padding-bottom: 0px; } }
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
-    font-size: 3.5rem;
+    font-size: 5rem;
     color: #ebebeb;
     padding-top: 30px;
-    padding-bottom: 0px; }
+    padding-bottom: 20px; }
+    @media only screen and (min-width: 360px) {
+      footer .fila-segunda {
+        font-size: 3.5rem;
+        padding-top: 30px;
+        padding-bottom: 20px; } }
+    @media only screen and (min-width: 1200px) {
+      footer .fila-segunda {
+        font-size: 5rem;
+        padding-top: 0px;
+        padding-bottom: 20px; } }
   footer .fila-tercera {
     font-family: "Cairo", sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: #ebebeb;
     padding-top: 30px;
     padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
       footer .fila-tercera {
-        font-size: 1.5rem; } }
+        font-size: 1.2rem; } }
     @media only screen and (min-width: 1200px) {
       footer .fila-tercera {
-        font-size: 1.5rem; } }
+        font-size: 1.2rem; } }
   footer .fila-cuarta {
     font-family: "Cairo", sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: #ebebeb;
     padding-top: 30px;
     padding-bottom: 20px; }
@@ -291,6 +319,10 @@ a:visited,
 a:active {
   text-decoration: none; }
 
+.amarillo {
+  height: auto;
+  background: linear-gradient(160deg, #ffcc00 30%, #fee41f 51%, #fff700 70%); }
+
 header {
   width: 100%;
   position: relative;
@@ -301,10 +333,8 @@ header {
   padding-right: 0%;
   padding-top: 0%;
   padding-bottom: 0%; }
-  header .contenedor-nav {
-    background: #ebebeb;
-    width: 100%;
-    height: 200px; }
+  header .amarillo-nav {
+    background-color: #ffcc00; }
   header .caja-rosa {
     width: 100%;
     height: 10px;
@@ -349,11 +379,13 @@ section {
       padding-left: 10%;
       padding-right: 10%; } }
   section .contenedor-100, section .contenedor-100-p {
-    background: #ebebeb;
     width: 100%;
     height: auto; }
   section .contenedor-100-p {
-    padding-bottom: 50px; }
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px; }
   section .texto1 {
     width: 65%;
     padding-top: 30px;
@@ -392,6 +424,15 @@ section {
     font-size: 1.5rem;
     font-weight: bold;
     color: #ffcc00;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 30px; }
+  section .p3-blanco {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ebebeb;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -609,7 +650,13 @@ img {
   padding-bottom: 0px; }
 
 .newspaper {
-  column-count: 2; }
+  column-count: 2;
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 70px;
+  margin-bottom: 70px; }
   @media only screen and (min-width: 360px) {
     .newspaper {
       column-count: 1; } }
