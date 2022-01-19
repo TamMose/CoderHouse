@@ -313,15 +313,11 @@ form label {
     transform: scale(1.35) translateY(-15px);
     -webkit-transform-origin: top;
     transform-origin: top; } }
-/*Para que los links no tengan subrayado*/
+/*Para que los links no tengan subrayados*/
 a:link,
 a:visited,
 a:active {
   text-decoration: none; }
-
-.amarillo {
-  height: auto;
-  background: linear-gradient(160deg, #ffcc00 30%, #fee41f 51%, #fff700 70%); }
 
 header {
   width: 100%;
@@ -444,8 +440,29 @@ section {
   width: 70%; }
 
 main {
+  height: auto;
   width: 100%;
-  background-color: #231f20; }
+  background-color: #231f20;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-left: 10%;
+  padding-right: 10%; }
+  @media only screen and (min-width: 360px) {
+    main {
+      padding-top: 0px;
+      padding-bottom: 5px;
+      padding-left: 5%;
+      padding-right: 5%; } }
+  @media only screen and (min-width: 1200px) {
+    main {
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-left: 10%;
+      padding-right: 10%; } }
   main .contenedor-90 {
     width: 100%;
     height: auto;
@@ -457,17 +474,11 @@ main {
     padding-right: 0px;
     padding-top: 0px;
     padding-bottom: 0px; }
-  main .cont-main {
-    width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
-    padding-top: 0px;
-    padding-bottom: 30px; }
   main .p {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
     color: #ebebeb;
-    padding-right: 60px; }
+    padding-right: 0px; }
     @media only screen and (min-width: 360px) {
       main .p {
         font-size: 1.5rem;
@@ -475,7 +486,7 @@ main {
     @media only screen and (min-width: 1200px) {
       main .p {
         font-size: 2.4rem;
-        padding-right: 60px; } }
+        padding-right: 0px; } }
   main .p2 {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
@@ -494,36 +505,56 @@ main {
   main .p3 {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: bold;
     color: #ffcc00;
     padding-left: 0px;
     padding-right: 0px;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 30px; }
+  main .p4, main .p4--blanco {
+    font-family: "Cairo", sans-serif;
+    font-size: 1.5rem;
+    color: #ebebeb; }
+    @media only screen and (min-width: 360px) {
+      main .p4, main .p4--blanco {
+        font-size: 1.2rem; } }
+    @media only screen and (min-width: 1200px) {
+      main .p4, main .p4--blanco {
+        font-size: 1.5rem; } }
   main .color-2 {
     background-color: #ffcc00; }
 
 .p4, .p4--blanco {
   font-family: "Cairo", sans-serif;
   font-size: 1.5rem;
-  color: #231f20;
-  margin-left: 0%;
-  margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
+  color: #231f20; }
+  @media only screen and (min-width: 360px) {
+    .p4, .p4--blanco {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .p4, .p4--blanco {
+      font-size: 1.5rem; } }
+
+.mar-1 {
+  padding-left: 60px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.mar-2 {
   padding-left: 0px;
   padding-right: 60px;
   padding-top: 0px;
   padding-bottom: 0px; }
   @media only screen and (min-width: 360px) {
-    .p4, .p4--blanco {
+    .mar-2 {
       font-size: 1.2rem;
       padding-left: 0px;
       padding-right: 5px;
       padding-top: 0px;
       padding-bottom: 0px; } }
   @media only screen and (min-width: 1200px) {
-    .p4, .p4--blanco {
+    .mar-2 {
       font-size: 1.5rem;
       padding-left: 0px;
       padding-right: 60px;
@@ -534,20 +565,17 @@ main {
   color: #ebebeb; }
 
 .img-sec-estudio, .img-sec-estudio-p {
-  width: 50%;
+  width: 65%;
   height: auto;
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
-
-.img-sec-estudio, .img-sec-estudio-p {
-  width: 60%;
-  height: auto;
+  border: 1px solid #231f20;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 0%;
+  margin-bottom: 0%;
   padding-left: 0%;
   padding-right: 0%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
+  padding-top: 0%;
+  padding-bottom: 0%; }
 
 .img-sec-estudio-p {
   padding-left: 10%;
@@ -569,20 +597,22 @@ main {
   width: 100%;
   height: auto;
   object-fit: cover;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px; }
+  border: 1px solid #231f20;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px; }
 
 .img-project2 {
   width: 100%;
   height: 80%;
   object-fit: cover;
+  border: 1px solid #231f20;
   cursor: zoom-in;
-  padding-left: 5px;
-  padding-right: 5px;
-  padding-top: 5px;
-  padding-bottom: 5px; }
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .p-p {
   font-family: "Cairo", sans-serif;
@@ -602,6 +632,7 @@ main {
   .slide .img-carrusel {
     width: 80%;
     height: 800px;
+    border: 1px solid #231f20;
     margin-left: 0%;
     margin-right: 0%;
     margin-top: 5%;
@@ -630,9 +661,21 @@ main {
       .slide .img-carrusel {
         width: 80%;
         height: 800px; } }
+  .slide .button-slider {
+    height: 800px; }
+    @media only screen and (min-width: 360px) {
+      .slide .button-slider {
+        height: 260px; } }
+    @media only screen and (min-width: 1200px) {
+      .slide .button-slider {
+        height: 800px; } }
 
 img {
   object-fit: cover; }
+
+.amarillo {
+  height: auto;
+  background: linear-gradient(160deg, #ffcc00 30%, #fee41f 51%, #fff700 70%); }
 
 .fondo-studio {
   background-color: #ffcc00; }
@@ -655,7 +698,7 @@ img {
   font-weight: 300;
   margin-left: 0px;
   margin-right: 0px;
-  margin-top: 70px;
+  margin-top: 30px;
   margin-bottom: 70px; }
   @media only screen and (min-width: 360px) {
     .newspaper {
@@ -663,5 +706,8 @@ img {
   @media only screen and (min-width: 1200px) {
     .newspaper {
       column-count: 2; } }
+
+h1 {
+  padding-top: 80px; }
 
 /*# sourceMappingURL=style.css.map */
