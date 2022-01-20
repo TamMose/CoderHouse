@@ -32,7 +32,7 @@ mark {
 
 nav {
   height: 150px;
-  background: #ebebeb;
+  background: #ecebe3;
   font-family: "Cairo", sans-serif;
   padding-left: 10%;
   padding-right: 10%;
@@ -41,7 +41,7 @@ nav {
   @media only screen and (min-width: 360px) {
     nav {
       height: auto;
-      background: #ebebeb;
+      background: #ecebe3;
       padding-left: 5%;
       padding-right: 5%;
       padding-top: 50px;
@@ -49,7 +49,7 @@ nav {
   @media only screen and (min-width: 1200px) {
     nav {
       height: 150px;
-      background: #ebebeb;
+      background: #ecebe3;
       padding-left: 10%;
       padding-right: 10%;
       padding-top: 0px;
@@ -111,7 +111,7 @@ mark {
 footer {
   background: #231f20;
   width: 100%;
-  height: 360px;
+  height: 380px;
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 0%;
@@ -127,9 +127,16 @@ footer {
       padding-bottom: 5px;
       padding-left: 5%;
       padding-right: 5%; } }
+  @media only screen and (min-width: 768px) {
+    footer {
+      height: 380px;
+      padding-top: 10px;
+      padding-bottom: 0px;
+      padding-left: 5%;
+      padding-right: 5%; } }
   @media only screen and (min-width: 1200px) {
     footer {
-      height: 360px;
+      height: 380px;
       padding-top: 30px;
       padding-bottom: 0px;
       padding-left: 10%;
@@ -138,17 +145,22 @@ footer {
     font-family: "Cairo", sans-serif;
     font-size: 2rem;
     color: #ebebeb;
-    padding-top: 0px;
+    padding-top: 40px;
     padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
       footer .fila-primera {
         font-size: 1.5rem;
         padding-top: 0px;
         padding-bottom: 0px; } }
+    @media only screen and (min-width: 768px) {
+      footer .fila-primera {
+        font-size: 1.5rem;
+        padding-top: 50px;
+        padding-bottom: 0px; } }
     @media only screen and (min-width: 1200px) {
       footer .fila-primera {
         font-size: 2rem;
-        padding-top: 0px;
+        padding-top: 40px;
         padding-bottom: 0px; } }
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
@@ -196,7 +208,7 @@ section {
 
 .formulario {
   width: 100%;
-  background-color: #ebebeb;
+  background-color: #ecebe3;
   margin: 0px;
   padding: 0; }
 
@@ -214,7 +226,7 @@ h4 {
 
 form {
   font-size: 1.8rem;
-  background-color: #ebebeb;
+  background-color: #ecebe3;
   width: 80%; }
   @media only screen and (min-width: 360px) {
     form {
@@ -323,7 +335,7 @@ header {
   width: 100%;
   position: relative;
   top: 0;
-  background: #ebebeb;
+  background: #ecebe3;
   margin: 0;
   padding-left: 0%;
   padding-right: 0%;
@@ -338,7 +350,7 @@ header {
 
 body {
   background-color: violet;
-  background: #ebebeb;
+  background: #ecebe3;
   line-height: 1.2;
   width: 100%;
   height: auto;
@@ -374,6 +386,19 @@ section {
       padding-bottom: 50px;
       padding-left: 10%;
       padding-right: 10%; } }
+  section .a-f {
+    font-family: "Cairo", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    color: #231f20; }
+    section .a-f:hover {
+      color: #ffcc00; }
+    @media only screen and (min-width: 360px) {
+      section .a-f {
+        font-size: 1.5rem; } }
+    @media only screen and (min-width: 1200px) {
+      section .a-f {
+        font-size: 3.5rem; } }
   section .contenedor-100, section .contenedor-100-p {
     width: 100%;
     height: auto; }
@@ -428,7 +453,7 @@ section {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
     font-weight: 700;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-left: 0px;
     padding-right: 0px;
     padding-top: 0px;
@@ -445,24 +470,32 @@ main {
   background-color: #231f20;
   margin-left: 0%;
   margin-right: 0%;
-  margin-top: 0%;
-  margin-bottom: 0%;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 2%;
+  margin-bottom: 2%;
   padding-left: 10%;
-  padding-right: 10%; }
+  padding-right: 10%;
+  padding-top: 80px;
+  padding-bottom: 80px; }
   @media only screen and (min-width: 360px) {
     main {
-      padding-top: 0px;
-      padding-bottom: 5px;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 0%;
+      margin-bottom: 5%;
       padding-left: 5%;
-      padding-right: 5%; } }
+      padding-right: 5%;
+      padding-top: 5%;
+      padding-bottom: 10%; } }
   @media only screen and (min-width: 1200px) {
     main {
-      padding-top: 50px;
-      padding-bottom: 50px;
+      margin-left: 0%;
+      margin-right: 0%;
+      margin-top: 2%;
+      margin-bottom: 2%;
       padding-left: 10%;
-      padding-right: 10%; } }
+      padding-right: 10%;
+      padding-top: 80px;
+      padding-bottom: 80px; } }
   main .contenedor-90 {
     width: 100%;
     height: auto;
@@ -564,6 +597,12 @@ main {
 .p4--blanco {
   color: #ebebeb; }
 
+.boton {
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
 .img-sec-estudio, .img-sec-estudio-p {
   width: 65%;
   height: auto;
@@ -576,12 +615,38 @@ main {
   padding-right: 0%;
   padding-top: 0%;
   padding-bottom: 0%; }
+  @media only screen and (min-width: 360px) {
+    .img-sec-estudio, .img-sec-estudio-p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 15px;
+      margin-bottom: 15px; } }
+  @media only screen and (min-width: 1200px) {
+    .img-sec-estudio, .img-sec-estudio-p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 0px;
+      margin-bottom: 0px; } }
 
 .img-sec-estudio-p {
-  padding-left: 10%;
-  padding-right: 0%;
-  padding-top: 5%;
-  padding-bottom: 5%; }
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-top: 30px;
+  margin-bottom: 0%; }
+  @media only screen and (min-width: 360px) {
+    .img-sec-estudio-p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 15px;
+      margin-bottom: 15px; } }
+  @media only screen and (min-width: 1200px) {
+    .img-sec-estudio-p {
+      margin-left: 0px;
+      margin-right: 0px;
+      margin-top: 30px;
+      margin-bottom: 0px; } }
 
 .caja1 {
   text-align: right; }
@@ -655,8 +720,8 @@ main {
         height: 250px; } }
     @media only screen and (min-width: 768px) {
       .slide .img-carrusel {
-        width: 80%;
-        height: 600px; } }
+        width: 90%;
+        height: 400px; } }
     @media only screen and (min-width: 1200px) {
       .slide .img-carrusel {
         width: 80%;
@@ -666,6 +731,9 @@ main {
     @media only screen and (min-width: 360px) {
       .slide .button-slider {
         height: 260px; } }
+    @media only screen and (min-width: 768px) {
+      .slide .button-slider {
+        height: 400px; } }
     @media only screen and (min-width: 1200px) {
       .slide .button-slider {
         height: 800px; } }
@@ -685,6 +753,18 @@ img {
   padding-right: 0px;
   padding-top: 100px;
   padding-bottom: 0px; }
+  @media only screen and (min-width: 360px) {
+    .padding {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 50px;
+      padding-bottom: 0px; } }
+  @media only screen and (min-width: 1200px) {
+    .padding {
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 100px;
+      padding-bottom: 0px; } }
 
 .padding1 {
   padding-left: 0px;

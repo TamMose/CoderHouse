@@ -82,7 +82,25 @@ section {
 
     }
 
+.a-f{
+    font-family: $fuente-titulos;
+    font-size: $font-h1;
+    font-weight: 300;
+    color: $font-color;
 
+    &:hover{
+        color: $font-color-second;
+    }
+
+    @include mobile {
+        font-size: $font-h4;
+
+    }
+
+    @include desktop {
+        font-size: $font-h1;
+    }
+}
 
 
     .contenedor-100 {
@@ -196,28 +214,22 @@ main {
     width: map-get($main, ancho-total);
     background-color: map-get($main, negro);
 
-    @include margin (0%, 0%, 0%, 0%);
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 10%;
-    padding-right: 10%;
+    @include margin (0%, 0%, 2%, 2%);
+    @include padding (10%, 10%, 80px, 80px);
+
 
 
     @include mobile {
-
-        padding-top: 0px;
-        padding-bottom: 5px;
-        padding-left: 5%;
-        padding-right: 5%;
+        @include margin (0%, 0%, 0%, 5%);
+        @include padding (5%, 5%, 5%, 10%);
+        
 
 
     }
 
     @include desktop {
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 10%;
-        padding-right: 10%;
+        @include margin (0%, 0%, 2%, 2%);
+        @include padding (10%, 10%, 80px, 80px);
 
     }
 
@@ -342,7 +354,9 @@ main {
     color: $font-color-blanco;
 }
 
-
+.boton{
+    @include margin (0px, 0px, 15px, 15px);
+}
 
 
 
@@ -353,11 +367,31 @@ main {
     @include margin (0%, 0%, 0%, 0%);
     @include padding (0%, 0%, 0%, 0%);
 
+    @include mobile{
+        
+        @include margin (0px, 0px, 15px, 15px);
+    }
+    @include desktop{
+        
+        @include margin (0px, 0px, 0px, 0px);
+    }
+
 }
 
 .img-sec-estudio-p {
     @extend .img-sec-estudio;
-    @include padding (10%, 0%, 5%, 5%);
+    width: 100%;
+    height: auto;
+    @include margin (0%, 0%, 30px, 0%);
+
+    @include mobile{
+        
+        @include margin (0px, 0px, 15px, 15px);
+    }
+    @include desktop{
+        
+        @include margin (0px, 0px, 30px, 0px);
+    }
 }
 
 
@@ -440,8 +474,8 @@ main {
 
         }
         @include tablet {
-            width: 80%;
-            height: 600px;
+            width: 90%;
+            height: 400px;
         }
 
         @include desktop {
@@ -455,6 +489,11 @@ main {
 
         @include mobile{
             height: 260px;
+
+        }
+
+        @include tablet{
+            height: 400px;
         }
         @include desktop{
             height: 800px;
@@ -486,6 +525,17 @@ img {
 
 .padding {
     @include padding (0px, 0px, 100px, 0px);
+    
+    @include mobile {
+        @include padding (0px, 0px, 50px, 0px);
+        
+    }
+
+    @include desktop {
+        @include padding (0px, 0px, 100px, 0px);
+        
+    }
+
 
 }
 
