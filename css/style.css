@@ -145,7 +145,7 @@ footer {
     font-family: "Cairo", sans-serif;
     font-size: 2rem;
     color: #ebebeb;
-    padding-top: 40px;
+    padding-top: 0px;
     padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
       footer .fila-primera {
@@ -160,7 +160,7 @@ footer {
     @media only screen and (min-width: 1200px) {
       footer .fila-primera {
         font-size: 2rem;
-        padding-top: 40px;
+        padding-top: 0px;
         padding-bottom: 0px; } }
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
@@ -691,6 +691,15 @@ main {
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px; }
+  @media only screen and (min-width: 360px) {
+    .p-p {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 768px) {
+    .p-p {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .p-p {
+      font-size: 1.5rem; } }
 
 .slide {
   width: 100%; }
@@ -748,6 +757,25 @@ img {
 .fondo-studio {
   background-color: #ffcc00; }
 
+.video {
+  border: 1px solid #231f20; }
+
+video {
+  width: 100%;
+  height: 700px;
+  object-fit: cover;
+  padding: 0px;
+  margin: 0px; }
+  @media only screen and (min-width: 360px) {
+    video {
+      height: 200px; } }
+  @media only screen and (min-width: 768px) {
+    video {
+      height: 400px; } }
+  @media only screen and (min-width: 1200px) {
+    video {
+      height: 700px; } }
+
 .padding {
   padding-left: 0px;
   padding-right: 0px;
@@ -770,7 +798,7 @@ img {
   padding-left: 0px;
   padding-right: 0px;
   padding-top: 0px;
-  padding-bottom: 0px; }
+  padding-bottom: 30px; }
 
 .newspaper {
   column-count: 2;
