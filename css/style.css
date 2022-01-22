@@ -29,6 +29,8 @@ mark {
       padding-bottom: 0px; } }
   .container-nav .amarillo-nav {
     background-color: #ffcc00; }
+  .container-nav .negro-nav {
+    background-color: #231f20; }
 
 nav {
   height: 150px;
@@ -97,7 +99,7 @@ nav {
     text-decoration: underline;
     cursor: pointer; }
     nav .a-studio:hover {
-      color: #ebebeb;
+      color: #ecebe3;
       transform: scale(1.7rem);
       font-weight: 700; }
   nav .active {
@@ -144,7 +146,7 @@ footer {
   footer .fila-primera {
     font-family: "Cairo", sans-serif;
     font-size: 2rem;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-top: 0px;
     padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
@@ -165,7 +167,7 @@ footer {
   footer .fila-segunda {
     font-family: "Cairo", sans-serif;
     font-size: 5rem;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-top: 30px;
     padding-bottom: 20px; }
     @media only screen and (min-width: 360px) {
@@ -181,7 +183,7 @@ footer {
   footer .fila-tercera {
     font-family: "Cairo", sans-serif;
     font-size: 1.2rem;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-top: 30px;
     padding-bottom: 0px; }
     @media only screen and (min-width: 360px) {
@@ -193,7 +195,7 @@ footer {
   footer .fila-cuarta {
     font-family: "Cairo", sans-serif;
     font-size: 1rem;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-top: 30px;
     padding-bottom: 20px; }
   footer a:hover {
@@ -461,7 +463,7 @@ section {
   section .color-2 {
     background-color: #ffcc00; }
 
-.img-sec-estudio, .img-sec-estudio-p {
+.img-sec-estudio, .img-sec-estudio-p, .img-workshop {
   width: 70%; }
 
 main {
@@ -471,7 +473,7 @@ main {
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 0%;
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 80px;
@@ -491,7 +493,7 @@ main {
       margin-left: 0%;
       margin-right: 0%;
       margin-top: 2%;
-      margin-bottom: 2%;
+      margin-bottom: 0%;
       padding-left: 10%;
       padding-right: 10%;
       padding-top: 80px;
@@ -510,7 +512,7 @@ main {
   main .p {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
-    color: #ebebeb;
+    color: #ecebe3;
     padding-right: 0px; }
     @media only screen and (min-width: 360px) {
       main .p {
@@ -524,7 +526,7 @@ main {
     font-family: "Cairo", sans-serif;
     font-size: 2.4rem;
     font-weight: lighter;
-    color: #ebebeb;
+    color: #ecebe3;
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 0px;
@@ -547,7 +549,7 @@ main {
   main .p4, main .p4--blanco {
     font-family: "Cairo", sans-serif;
     font-size: 1.5rem;
-    color: #ebebeb; }
+    color: #ecebe3; }
     @media only screen and (min-width: 360px) {
       main .p4, main .p4--blanco {
         font-size: 1.2rem; } }
@@ -595,15 +597,17 @@ main {
       padding-bottom: 0px; } }
 
 .p4--blanco {
-  color: #ebebeb; }
+  color: #ecebe3; }
 
 .boton {
+  font-size: 1.5rem;
+  border: 2px solid;
   margin-left: 0px;
   margin-right: 0px;
   margin-top: 15px;
   margin-bottom: 15px; }
 
-.img-sec-estudio, .img-sec-estudio-p {
+.img-sec-estudio, .img-sec-estudio-p, .img-workshop {
   width: 65%;
   height: auto;
   border: 1px solid #231f20;
@@ -616,13 +620,13 @@ main {
   padding-top: 0%;
   padding-bottom: 0%; }
   @media only screen and (min-width: 360px) {
-    .img-sec-estudio, .img-sec-estudio-p {
+    .img-sec-estudio, .img-sec-estudio-p, .img-workshop {
       margin-left: 0px;
       margin-right: 0px;
       margin-top: 15px;
       margin-bottom: 15px; } }
   @media only screen and (min-width: 1200px) {
-    .img-sec-estudio, .img-sec-estudio-p {
+    .img-sec-estudio, .img-sec-estudio-p, .img-workshop {
       margin-left: 0px;
       margin-right: 0px;
       margin-top: 0px;
@@ -647,6 +651,10 @@ main {
       margin-right: 0px;
       margin-top: 30px;
       margin-bottom: 0px; } }
+
+.img-workshop {
+  width: 50%;
+  height: auto; }
 
 .caja1 {
   text-align: right; }
@@ -683,6 +691,7 @@ main {
   font-family: "Cairo", sans-serif;
   font-size: 1.5rem;
   color: #231f20;
+  font-weight: 300;
   margin-left: 0%;
   margin-right: 0%;
   margin-top: 0%;
@@ -757,14 +766,18 @@ img {
 .fondo-studio {
   background-color: #ffcc00; }
 
+.negro {
+  height: auto;
+  background: #231f20; }
+
 .video {
   border: 1px solid #231f20; }
 
 video {
   width: 100%;
-  height: 700px;
+  height: auto;
   object-fit: cover;
-  padding: 0px;
+  padding-top: 0px;
   margin: 0px; }
   @media only screen and (min-width: 360px) {
     video {
@@ -774,7 +787,7 @@ video {
       height: 400px; } }
   @media only screen and (min-width: 1200px) {
     video {
-      height: 700px; } }
+      height: auto; } }
 
 .padding {
   padding-left: 0px;
