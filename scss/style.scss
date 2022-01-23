@@ -220,7 +220,7 @@ main {
 
 
     @include mobile {
-        @include margin (0%, 0%, 0%, 5%);
+        @include margin (0%, 0%, 0%, 0%);
         @include padding (5%, 5%, 5%, 10%);
 
 
@@ -363,6 +363,16 @@ main {
     font-size: $font-h4;
     border: 2px solid;
     @include margin (0px, 0px, 15px, 15px);
+
+    @include mobile {
+        font-size: $font-p;
+       
+    }
+
+    @include desktop {
+        font-size: $font-h4;
+        
+    }
 }
 
 
@@ -596,6 +606,9 @@ video {
 
 
 }
+
+
+
 
 .padding {
     @include padding (0px, 0px, 100px, 0px);

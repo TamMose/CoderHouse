@@ -255,13 +255,44 @@ form .form-control {
       padding-bottom: 30px; } }
 
 form label {
-  padding: 30px; }
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 30px;
+  padding-bottom: 30px; }
   @media only screen and (min-width: 360px) {
     form label {
-      padding: 10px; } }
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 10px;
+      padding-bottom: 10px; } }
   @media only screen and (min-width: 1200px) {
     form label {
-      padding: 30px; } }
+      padding-left: 0px;
+      padding-right: 0px;
+      padding-top: 30px;
+      padding-bottom: 30px; } }
+
+.p5, .p6 {
+  font-family: "Cairo", sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffcc00;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 30px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px; }
+
+.p6 {
+  color: #231f20;
+  font-size: 1.2rem;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px; }
 
 .slide-bottom {
   -webkit-animation: slide-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
@@ -483,7 +514,7 @@ main {
       margin-left: 0%;
       margin-right: 0%;
       margin-top: 0%;
-      margin-bottom: 5%;
+      margin-bottom: 0%;
       padding-left: 5%;
       padding-right: 5%;
       padding-top: 5%;
@@ -606,6 +637,12 @@ main {
   margin-right: 0px;
   margin-top: 15px;
   margin-bottom: 15px; }
+  @media only screen and (min-width: 360px) {
+    .boton {
+      font-size: 1.2rem; } }
+  @media only screen and (min-width: 1200px) {
+    .boton {
+      font-size: 1.5rem; } }
 
 .img-sec-estudio, .img-sec-estudio-p, .img-workshop {
   width: 65%;
