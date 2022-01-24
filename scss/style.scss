@@ -223,7 +223,11 @@ main {
         @include margin (0%, 0%, 0%, 0%);
         @include padding (5%, 5%, 5%, 10%);
 
+    }
 
+    @include tablet {
+        @include margin (0%, 0%, 0%, 0%);
+        @include padding (5%, 5%, 5%, 0%);
 
     }
 
@@ -338,6 +342,19 @@ main {
 
 .mar-1 {
     @include padding (60px, 0px, 0px, 0px);
+
+    @include mobile {
+        font-size: $font-p;
+        @include padding (0px, 5px, 0px, 0px);
+    }
+    @include tablet {
+        font-size: $font-p;
+        @include padding (0px, 5px, 0px, 0px);
+    }
+    @include desktop {
+        font-size: $font-p;
+        @include padding (60px, 0px, 0px, 0px);
+    }
 }
 
 .mar-2 {

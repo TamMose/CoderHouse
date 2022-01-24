@@ -89,13 +89,42 @@ section {
     color: $fondo-2;
     @include padding (0px, 0px, 30px, 0px);
     @include margin (0px, 0px, 0px, 0px);
+
+    @include mobile {
+      @include padding (0px, 0px, 30px, 0px);
+    
+  
+    }
+    @include tablet {
+      @include padding (0px, 0px, 30px, 0px);
+    
+  
+    }
+    @include desktop {
+      @include padding (0px, 0px, 30px, 0px);
+    
+  
+    }
 }
 
 .p6{
   @extend .p5;
   color: $fondo-3;
   font-size: $font-p;
-  @include padding (0px, 0px, 0px, 0px);
+  @include padding (0px, 30px, 0px, 0px);
+  
+  @include mobile {
+    font-size: $font-p;
+    @include padding (0px, 30px, 0px, 0px);
+  }
+  @include tablet {
+    font-size: 0.9rem;
+    @include padding (0px, 0px, 0px, 0px);
+  }
+  @include desktop {
+    font-size: $font-p;
+    @include padding (0px, 30px, 0px, 0px);
+  }
 }
 
   
