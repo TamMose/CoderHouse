@@ -18,6 +18,10 @@ pero para sass:css utilice sass --watch y descarte la extensión de VSC: live sa
 
 + Modificaciones en el wireframe. (https://www.figma.com/file/wZLLBGDDBgeCE6qFaKCoZP/Coderhouse-web-develoment?node-id=105%3A2)
 
++ Github: https://github.com/TamMose
++ Github-pages: https://tammose.github.io/CoderHouse/
+
+
 
 
 
